@@ -46,117 +46,93 @@ class MainActivity : ComponentActivity() {
 @Preview(showBackground = true, showSystemUi = true)
 @Composable
 fun ResponsiveList() {
-LazyColumn{
+LazyColumn (modifier = Modifier.padding(all = 10.dp)){
     item {
-        Row(
-            horizontalArrangement = Arrangement.Start,
-            verticalAlignment = Alignment.CenterVertically,
-            modifier = Modifier.fillMaxSize()
-                .padding(all = 10.dp)
+        Text(
+            text = "Contact List",
+            fontWeight = FontWeight.Bold,
+            fontSize = 20.sp
         )
-        {
+
+        Spacer(modifier = Modifier.padding(top = 2.dp))
+
+
 
             Row {
 
                 Icon(
                     Icons.Filled.Person,
                     contentDescription = "Person"
-                )
 
-                Text(text = "Nimra", fontSize = 20.sp)
+                )
+                Spacer(modifier = Modifier.width(10.dp))
+                Column{
+                    Text(text = "Nimra", fontSize = 20.sp)
+
+                    Text(text = "manimra840@gmail.com", fontSize = 20.sp)
+
+                    Text(text = "03238002328", fontSize = 20.sp)}
+
             }
+            Spacer (modifier = Modifier.padding(top=30.dp))
+        Row {
+
+            Icon(
+                Icons.Filled.Person,
+                contentDescription = "Person"
+
+            )
             Spacer(modifier = Modifier.width(10.dp))
-            Row {
-
-                Icon(
-                    Icons.Filled.Person,
-                    contentDescription = "Person"
-                )
-
+            Column{
                 Text(text = "Nimra", fontSize = 20.sp)
-            }
-            Spacer(modifier = Modifier.width(10.dp))
-            Row {
 
-                Icon(
-                    Icons.Filled.Person,
-                    contentDescription = "Person"
-                )
+                Text(text = "manimra840@gmail.com", fontSize = 20.sp)
 
-                Text(text = "Nimra", fontSize = 20.sp)
-            }
-            Spacer(modifier = Modifier.width(10.dp))
-            Row {
-
-                Icon(
-                    Icons.Filled.Person,
-                    contentDescription = "Person"
-                )
-
-                Text(text = "Nimra", fontSize = 20.sp)
-            }
-            Spacer(modifier = Modifier.width(10.dp))
-            Row {
-
-                Icon(
-                    Icons.Filled.Person,
-                    contentDescription = "Person"
-                )
-
-                Text(text = "Nimra", fontSize = 20.sp)
-            }
-            Spacer(modifier = Modifier.width(10.dp))
-            Row {
-
-                Icon(
-                    Icons.Filled.Person,
-                    contentDescription = "Person"
-                )
-
-                Text(text = "Nimra", fontSize = 20.sp)
-            }
-            Spacer(modifier = Modifier.width(10.dp))
-            Row {
-
-                Icon(
-                    Icons.Filled.Person,
-                    contentDescription = "Person"
-                )
-
-                Text(text = "Nimra", fontSize = 20.sp)
-            }
-            Spacer(modifier = Modifier.width(10.dp))
-            Row {
-
-                Icon(
-                    Icons.Filled.Person,
-                    contentDescription = "Person"
-                )
-
-                Text(text = "Nimra", fontSize = 20.sp)
-            }
-            Spacer(modifier = Modifier.width(10.dp))
-            Row {
-
-                Icon(
-                    Icons.Filled.Person,
-                    contentDescription = "Person"
-                )
-
-                Text(text = "Nimra", fontSize = 20.sp)
-            }
-            Spacer(modifier = Modifier.width(10.dp))
-            Row {
-
-                Icon(
-                    Icons.Filled.Person,
-                    contentDescription = "Person"
-                )
-
-                Text(text = "Nimra", fontSize = 20.sp)
-            }
+                Text(text = "03238002328", fontSize = 20.sp)}
 
         }
+        Spacer (modifier = Modifier.padding(top=30.dp))
+        Row {
+
+            Icon(
+                Icons.Filled.Person,
+                contentDescription = "Person"
+
+            )
+            Spacer(modifier = Modifier.width(10.dp))
+            Column{
+                Text(text = "Nimra", fontSize = 20.sp)
+
+                Text(text = "manimra840@gmail.com", fontSize = 20.sp)
+
+                Text(text = "03238002328", fontSize = 20.sp)}
+
+        }
+        Spacer (modifier = Modifier.padding(top=30.dp))
+        Row {
+
+            Icon(
+                Icons.Filled.Person,
+                contentDescription = "Person"
+
+            )
+            Spacer(modifier = Modifier.width(10.dp))
+            Column{
+                Text(text = "Nimra", fontSize = 20.sp)
+
+                Text(text = "manimra840@gmail.com", fontSize = 20.sp)
+
+                Text(text = "03238002328", fontSize = 20.sp)}
+
+        }
+        Spacer (modifier = Modifier.padding(top=30.dp))
+
+
+
+
+
+
+
     }
  }
 }
