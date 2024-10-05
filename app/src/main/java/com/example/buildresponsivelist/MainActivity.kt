@@ -54,7 +54,7 @@ LazyColumn (modifier = Modifier.padding(all = 10.dp)){
             fontSize = 20.sp
         )
 
-        Spacer(modifier = Modifier.padding(top = 2.dp))
+        Spacer(modifier = Modifier.padding(top = 10.dp))
 
 
 
@@ -71,7 +71,26 @@ LazyColumn (modifier = Modifier.padding(all = 10.dp)){
 
                     Text(text = "manimra840@gmail.com", fontSize = 20.sp)
 
-                    Text(text = "03238002328", fontSize = 20.sp)}
+                    Text(text = "03238002328", fontSize = 20.sp)
+                }
+
+            }
+            Spacer(modifier = Modifier.padding(top=30.dp))
+        Row {
+
+            Icon(
+                Icons.Filled.Person,
+                contentDescription = "Person"
+
+            )
+                Spacer(modifier = Modifier.width(10.dp))
+                Column{
+                    Text(text = "Laiba Aosaf", fontSize = 20.sp)
+
+                    Text(text = "laibaaosaf@gmail.com", fontSize = 20.sp)
+
+                    Text(text = "0334 6042080", fontSize = 20.sp)
+                }
 
             }
             Spacer (modifier = Modifier.padding(top=30.dp))
@@ -84,13 +103,16 @@ LazyColumn (modifier = Modifier.padding(all = 10.dp)){
             )
             Spacer(modifier = Modifier.width(10.dp))
             Column{
-                Text(text = "Nimra", fontSize = 20.sp)
+                Text(text = "Masab Ijaz", fontSize = 20.sp)
 
-                Text(text = "manimra840@gmail.com", fontSize = 20.sp)
+                Text(text = "masab1059@gmail.com", fontSize = 20.sp)
 
-                Text(text = "03238002328", fontSize = 20.sp)}
+                Text(text = "0311 0462772", fontSize = 20.sp)
+            }
 
         }
+
+
         Spacer (modifier = Modifier.padding(top=30.dp))
         Row {
 
@@ -101,37 +123,14 @@ LazyColumn (modifier = Modifier.padding(all = 10.dp)){
             )
             Spacer(modifier = Modifier.width(10.dp))
             Column{
-                Text(text = "Nimra", fontSize = 20.sp)
+                Text(text = "Malaika Qadeer", fontSize = 20.sp)
 
-                Text(text = "manimra840@gmail.com", fontSize = 20.sp)
+                Text(text = "malaika@gmail.com", fontSize = 20.sp)
 
-                Text(text = "03238002328", fontSize = 20.sp)}
-
-        }
-        Spacer (modifier = Modifier.padding(top=30.dp))
-        Row {
-
-            Icon(
-                Icons.Filled.Person,
-                contentDescription = "Person"
-
-            )
-            Spacer(modifier = Modifier.width(10.dp))
-            Column{
-                Text(text = "Nimra", fontSize = 20.sp)
-
-                Text(text = "manimra840@gmail.com", fontSize = 20.sp)
-
-                Text(text = "03238002328", fontSize = 20.sp)}
+                Text(text = "0322 8836617", fontSize = 20.sp)
+            }
 
         }
-        Spacer (modifier = Modifier.padding(top=30.dp))
-
-
-
-
-
-
 
     }
  }
